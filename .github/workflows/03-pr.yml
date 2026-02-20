@@ -12,6 +12,6 @@ jobs:
       - name: Afficher des infos PR
         run: | 
           echo PR :  
-          echo Author : ${{ github.actor }}
-          echo branch pr : ${{ github.head_ref }}
-          echo cible : ${{ github.base_ref }}
+          echo "Author : ${{ github.actor }}"
+          echo "branch pr : ${{ github.head_ref }}"
+          echo "cible : ${{ github.base_ref }}"
