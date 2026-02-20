@@ -1,4 +1,4 @@
-name: "07 · Un job, plusieurs steps"
+name: "06 · Un job, plusieurs steps"
  
 on: workflow_dispatch
  
