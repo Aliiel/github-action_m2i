@@ -1,7 +1,7 @@
 name: "03 - PR"
 
 on: 
-  push:
+  pull_request:
     branches:
       - main
 
